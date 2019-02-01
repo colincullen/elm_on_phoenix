@@ -102,7 +102,7 @@ Elm.Main.init({
   node: document.getElementById("elm-container")
 })
 
-#### Replace the complete contents of '''lib/elm_on_phoenix_web/templates/page/index.html.eex''' with the following
+#### Replace the complete contents of```lib/elm_on_phoenix_web/templates/page/index.html.eex``` with the following
 ```
 <div id="elm-container"></div>
 ```
