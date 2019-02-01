@@ -102,8 +102,10 @@ import { Elm } from "../elm/src/Main.elm"
 
 Elm.Main.init({
   node: document.getElementById("elm-container")
-})```
+})
+```
 lib/elm_on_phoenix_web/templates/page/index.html.eex
+```
 ```
 <div id="elm-container"></div>
 ```
