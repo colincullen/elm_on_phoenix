@@ -27,3 +27,28 @@ Note: I thought the following git commands would create and update my remote rep
 git remote add origin https://github.com/[your account name]/elm_on_phoenix.git
 git push -u origin master
 ```
+
+#### Install Elm
+```
+npm install -g elm
+```
+
+#### Include the elm compiler and the elm-webpack-loader tool in the project
+'''
+cd assets
+npm install --save elm elm-webpack-loader
+```
+Adds the Elm dependencies to the package.json file.
+
+"dependencies": {
+  "elm": "^0.19.0",
+  "elm-webpack-loader": "^5.0.0",
+  "phoenix": "file:../deps/phoenix",
+  "phoenix_html": "file:../deps/phoenix_html"
+},
+
+#### Create the folder elm where elm code and other elm related items will reside
+```
+cd assets
+mkdir elm
+```
