@@ -47,9 +47,19 @@ Adds the Elm dependencies to the package.json file.
   "phoenix_html": "file:../deps/phoenix_html"
 },
 ```
-#### Create the folder elm where elm code and other elm related items will reside
+#### Create the folder ```elm``` where elm code and other elm related items will reside
 
 ```
 cd assets
 mkdir elm
+```
+#### Update .gitignore
+```
+# Elm
+/assets/elm/elm-stuff
+```
+#### Add the Elm project within the Phoenix scaffold - executed in ```assets```
+
+``` 
+elm init
 ```
