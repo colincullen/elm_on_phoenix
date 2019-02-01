@@ -94,3 +94,45 @@ module: {
 },
 // ...
 ```
+```
+assets/js/app.js
+```
+```javascript
+import { Elm } from "../elm/src/Main.elm"
+
+Elm.Main.init({
+  node: document.getElementById("elm-container")
+})```
+lib/elm_on_phoenix_web/templates/page/index.html.eex
+```
+<div id="elm-container"></div>
+```
+#### Because the web page response was changed one of the tests will need to be fixed
+
+To see the failing test change back to the project directory root and execute the tests using Mix by entering
+```
+mix test
+```
+The right side value, "Welcome to Phoenix!", will no longer match because it no longer exists.
+
+The failing test is
+```
+test/elm_on_phoenix_web/controllers/page_controller_test.exs
+```
+Replace the line 
+```
+assert html_response(conn, 200) =~ "Welcome to Phoenix!"
+```
+with
+```
+assert html_response(conn, 200) =~ "elm-container"
+```
+Re-run the tests using Mix - all tests should pass now
+
+#### Finally, from the root directory of the app, start the server
+```
+cd ..
+mix phx.server
+```
+You should now see ```Hello, Elm!``` on the page at http://localhost:4000
+
