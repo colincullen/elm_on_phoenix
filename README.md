@@ -63,7 +63,7 @@ mkdir elm
 ``` 
 elm init
 ```
-Create file ```Main.elm``` in ```assets/elm/src``` and add the following content
+#### Create file ```Main.elm``` in ```assets/elm/src``` and add the following content
 ```javascript
 module Main exposing (main)
 
@@ -94,18 +94,15 @@ module: {
 },
 // ...
 ```
-```
-assets/js/app.js
-```
+#### Replace the complete contents of the ```assets/js/app.js``` file with the following
 ```javascript
 import { Elm } from "../elm/src/Main.elm"
 
 Elm.Main.init({
   node: document.getElementById("elm-container")
 })
-```
-lib/elm_on_phoenix_web/templates/page/index.html.eex
-```
+
+#### Replace the complete contents of '''lib/elm_on_phoenix_web/templates/page/index.html.eex''' with the following
 ```
 <div id="elm-container"></div>
 ```
