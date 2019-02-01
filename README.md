@@ -63,3 +63,14 @@ mkdir elm
 ``` 
 elm init
 ```
+Create file ```Main.elm``` in ```assets/elm/src``` and add the following content
+```javascript
+module Main exposing (main)
+
+import Html exposing (Html, text)
+
+
+main : Html msg
+main =
+    text "Hello from Elm!"
+```
