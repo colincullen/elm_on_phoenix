@@ -74,3 +74,23 @@ main : Html msg
 main =
     text "Hello from Elm!"
 ```
+#### In the ```assets``` folder, add the following to the ```rules``` section of the ```webpack.config.js``` file 
+```javascript
+// ...
+module: {
+  //...
+  rules: [
+    {
+      test: /\.elm$/,
+      exclude: [/elm-stuff/, /node_modules/],
+      use: {
+        loader: 'elm-webpack-loader',
+        options: {
+          cwd: path.resolve(__dirname, 'elm')
+        }
+      }
+    }
+  ]
+},
+// ...
+```
