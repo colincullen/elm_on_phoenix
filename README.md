@@ -39,7 +39,7 @@ npm install -g elm
 cd assets
 npm install --save elm elm-webpack-loader
 ```
-Adds the Elm dependencies to the package.json file.
+will add the Elm dependencies to the package.json file.
 ```
 "dependencies": {
   "elm": "^0.19.0",
