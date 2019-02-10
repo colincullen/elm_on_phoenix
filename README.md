@@ -64,6 +64,8 @@ mkdir elm
 ``` 
 elm init
 ```
+Creats the ```elm.json``` file as well as the ```assets/elm/src``` directory
+
 #### Create file ```Main.elm``` in ```assets/elm/src``` and add the following content
 ```javascript
 module Main exposing (main)
