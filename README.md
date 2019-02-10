@@ -23,7 +23,7 @@ git add .
 git commit -m 'Initial commit'
 ```
 #### Add the local repo to a remote github repo
-Note: I thought the following git commands would create and update my remote repo with the files in my newly created local repo, but this was not the case. I first had to create an empty repo named ```_on_phoenix``` using the github GUI before the following commands had the desired result.
+Note: I thought the following git commands would create and update my remote repo with the files in my newly created local repo, but this was not the case. I first had to create an empty repo named ```elm_on_phoenix``` using the github GUI before the following commands had the desired result.
 ```
 git remote add origin https://github.com/[your account name]/elm_on_phoenix.git
 git push -u origin master
