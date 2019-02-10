@@ -59,7 +59,7 @@ mkdir elm
 # Elm
 /assets/elm/elm-stuff
 ```
-#### Add the Elm project within the Phoenix scaffold - executed in ```assets```
+#### Add the Elm project within the Phoenix scaffold - executed in ```assets```. This will create the ```elm.json``` file as well as the ```assets/elm/src``` directory
 
 ``` 
 elm init
