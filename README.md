@@ -60,12 +60,10 @@ mkdir elm
 /assets/elm/elm-stuff
 ```
 #### Add the Elm project within the Phoenix scaffold - executed in ```assets```
-will generate the ```elm.json``` and create the ```src``` sub-directory
-
+will generate the ```elm.json``` file and create the ```src``` sub-directory
 ``` 
 elm init
 ```
-
 #### Create file ```Main.elm``` in ```assets/elm/src``` and add the following content
 ```javascript
 module Main exposing (main)
