@@ -97,6 +97,10 @@ module: {
 ```
 #### Replace the complete contents of the ```assets/js/app.js``` file with the following
 ```javascript
+import css from "../css/app.css"
+import "phoenix_html"
+
+// New additions for Elm
 import { Elm } from "../elm/src/Main.elm"
 
 Elm.Main.init({
