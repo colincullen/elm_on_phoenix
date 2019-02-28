@@ -1,5 +1,5 @@
 # Elm on Phoenix Minimal Setup
-This repo contains a Phoenix scaffolding to which Elm has bee added. This implementation was created using the instructions that follow. To view the change differences between a base Phoenix project and the same project after Elm has been added, review:
+This repo contains a Phoenix scaffolding to which Elm has been added. This implementation was created using the instructions that follow. To view the change differences between a base Phoenix project and the same project after Elm has been added, review:
 https://github.com/colincullen/elm_on_phoenix/pull/1/files
 
 ## Instructions
