@@ -1,6 +1,6 @@
 # Elm on Phoenix Minimal Setup
 This repo contains a Phoenix scaffolding to which Elm has been added. This implementation was created using the instructions that follow. To view the change differences between a base Phoenix project and the same project after Elm has been added, review:
-https://github.com/colincullen/elm_on_phoenix/pull/1/files. The very helpful author of this git project has written an excellent tutorial elm and phoenix tutorial, which is titled Elixir and Elm Tutorial.
+https://github.com/colincullen/elm_on_phoenix/pull/1/files. The very helpful author of this git project has written an excellent tutorial titled _Elixir and Elm Tutorial_, but includes Phoenix: https://leanpub.com/u/bijanboustani.
 
 ## Instructions
 
