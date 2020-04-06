@@ -1,11 +1,11 @@
 # Elm on Phoenix Minimal Setup
-This repo contains a Phoenix scaffolding to which Elm has bee added. This implementation was created using the instructions that follow. To view the change differences between a base Phoenix project and the same project after Elm has been added, review:
-https://github.com/colincullen/elm_on_phoenix/pull/1/files
+This repo contains a Phoenix scaffolding to which Elm has been added. This implementation was created using the instructions that follow. To view the change differences between a base Phoenix project and the same project after Elm has been added, review:
+https://github.com/colincullen/elm_on_phoenix/pull/1/files. The very helpful author of this git project has written an excellent tutorial titled _Elixir and Elm Tutorial_, but includes Phoenix: https://leanpub.com/u/bijanboustani.
 
 ## Instructions
 
-A minimal set of instructions for adding Elm to a Phoenix project
-I credit these instructions to the following website for this minimalist approach - with one minor change to fix one of the elixir tests:
+A minimal set of instructions for adding Elm to a Phoenix project.
+I credit these minimal instructions to the following website (with one minor change to fix one of the elixir tests):
 https://github.com/elixir-elm-tutorial/elixir-elm-tutorial-book
 
 #### Create your new Phoenix project (use --no-ecto to skip the database - staying minimal)
@@ -137,5 +137,5 @@ Re-run the tests using Mix - all tests should pass now
 ```
 mix phx.server
 ```
-You should now see ```Hello, Elm!``` on the page at http://localhost:4000
+You should now see ```Hello from Elm!``` on the page at http://localhost:4000
 
